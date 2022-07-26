@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body {
+  background-color: skyblue;
+}
+
+header {
+  font-family: Odibee Sans;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  background-image: url('https://media.giphy.com/media/l0Iycthxm6oRoT2Ao/giphy.gif');
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  font-family: Odibee Sans;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%%;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width:200px;
+  height: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li a {
+  background-color: skyblue;
+  flex: 1;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-family: Odibee Sans;
+  font-size: 11px;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+h1 {
+  font-family: Odibee Sans;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  background-color: #eee;
+      box-shadow: 2px 5px black;
+}
+
+li a, main, h1 {
+  border: 1px solid black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-gap: 50px;
+}
+
+.grid-container-course-page {
+  display: flex;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-gap: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.grid-item {
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Odibee Sans;
+    box-shadow: 5px 10px black;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Odibee Sans;
+      box-shadow: 5px 10px black;
+}
+
+.vertical-menu a:hover {
+  background-color: skyblue;
+}
+
+.vertical-menu a.active {
+  background-color: skyblue;
+  color: white;
+}
